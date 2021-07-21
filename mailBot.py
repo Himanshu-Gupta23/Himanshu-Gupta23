@@ -27,17 +27,17 @@ def get_info():
 def send_email(receiver, subject, content):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('find.singhal@gmail.com', 'find@gmail')
+    server.login('xxxxxxxxxxxxxxx', 'xxxxxxx')
 
     email = EmailMessage()
-    email['From'] = 'find.singhal@gmail.com'
+    email['From'] = 'xxxxxxxxxxxxx'
     email['To'] = receiver
     email['Subject'] = subject
     email.set_content(content)
     server.send_message(email)
 
 email_list = {
-    'ok': 'singhal.himanshu210@gmail.com',
+    'yy': 'yyyyyyyyyyyyyyyyyy.gmail',
 
 }
 
